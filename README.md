@@ -3,6 +3,8 @@
 ## Overview
 
 This repository contains a sophisticated Bitcoin trading strategy that combines multi-timeframe analysis, volatility-based indicators, and RSI divergence patterns to generate trading signals. The strategy operates on 4-hour BTC data with daily timeframe confirmation.
+![Graph](https://github.com/user-attachments/assets/a8394f08-79a5-4fea-b6fe-7686233444d4)
+
 
 ## Strategy Overview
 
@@ -22,6 +24,10 @@ The strategy employs a multi-layered approach combining:
 - **Risk Controls**: Multiple exit conditions including stop-loss, trailing stops, and indicator-based exits
 
 ## Backtest Results
+![Equity](https://github.com/user-attachments/assets/0f7d7bce-176b-4010-93bc-32895e3492e4)
+![Drawdown](https://github.com/user-attachments/assets/eb6c4da8-f1d7-4e32-a72a-640e9fc2e260)
+![pnl](https://github.com/user-attachments/assets/720c7029-8a80-4f74-8a18-c7f7d993a59d)
+
 
 ### Performance Metrics
 
