@@ -85,7 +85,6 @@ Recovery Factor:        271.74
 - `pandas`
 - `numpy`
 - `matplotlib`
-- `untrade-sdk` (optional, for external backtesting)
 
 ### Data Files
 
@@ -101,15 +100,6 @@ Both files should contain the following columns:
 - `close`: Closing price
 - `volume`: Trading volume (optional)
 
-## Usage
-
-1. **Prepare Data Files**: Ensure your CSV files are in the correct format and located in the specified directory
-
-2. **Update File Paths**: Modify the file paths in the `main()` function to point to your data files:
-   ```python
-   data = pd.read_csv("path/to/BTC_4h_truncated.csv")
-   data2 = pd.read_csv("path/to/BTC_1d_truncated.csv")
-   ```
 
 3. **Run the Strategy**:
    ```bash
@@ -161,7 +151,3 @@ Key parameters can be adjusted in the code:
 - Results are based on backtesting and past performance does not guarantee future results
 - Always test thoroughly before deploying with real capital
 - Consider transaction costs, slippage, and market impact in live trading
-
-## Disclaimer
-
-This strategy is for educational and research purposes only. Trading cryptocurrencies involves substantial risk of loss. Past performance is not indicative of future results. Always conduct your own research and consider consulting with a financial advisor before making investment decisions.
